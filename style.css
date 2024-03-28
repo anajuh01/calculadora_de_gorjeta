@@ -91,7 +91,7 @@ main {
 .gorjeta div {
     margin-top: 1rem;
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 1rem;
 }
 
@@ -135,10 +135,10 @@ main {
     
 }
 
-.pessoas #erro {
+.pessoas #erro div {
     outline: 2px solid var(--danger);
 }
-.pessoas #erro-div {
+.pessoas #erro {
     font-size: 0.75rem;
     color: var(--danger);
     font-weight: 700;
@@ -196,7 +196,7 @@ main {
 
 .conta input::-webkit-inner-spin-button,
 .pessoas input::-webkit-inner-spin-button,
-.gorjeta #outra ::-webkit-inner-spin-button {
+.gorjeta #outra::-webkit-inner-spin-button {
         display: none;
     }
 
@@ -230,6 +230,8 @@ main {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+
+        
         padding: 2.5rem;
     }
     .resultados div > strong {
